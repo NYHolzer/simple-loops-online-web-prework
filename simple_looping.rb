@@ -12,8 +12,8 @@ def loop_iterator(number_of_times)
   counter = 0
   loop do
     puts phrase
-    number_of_times += 1 
-    break if number_of_times == number_of_times
+    counter += 1 
+    break if counter == number_of_times
   end
 end
 
